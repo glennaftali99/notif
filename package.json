@@ -1,0 +1,15 @@
+{
+  "name": "notification-app",
+  "version": "1.0.0",
+  "description": "Incident notification app with Google Sheets backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^105.0.0"
+  }
+}
